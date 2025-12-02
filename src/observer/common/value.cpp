@@ -422,7 +422,7 @@ string Value::to_string() const
 {
   string res;
   if (is_null()) {
-    return "NULL";
+    return "";
   }
   RC rc = DataType::type_instance(this->attr_type_)->to_string(*this, res);
   if (OB_FAIL(rc)) {
