@@ -157,7 +157,7 @@ private:
   
   std::string alias_;
 
-  std::string table_alias_;
+  //std::string table_alias_;
 };
 
 class StarExpr : public Expression
