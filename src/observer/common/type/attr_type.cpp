@@ -40,7 +40,7 @@ size_t attr_type_size(AttrType type)
     case AttrType::CHARS: return sizeof(char);
     case AttrType::DATES:
     case AttrType::INTS: return sizeof(int);
-    //case AttrType::VECTORS: return VectorData::field_size;
+    case AttrType::VECTORS: return VectorData::field_size;
     case AttrType::FLOATS: return sizeof(float);
     case AttrType::TEXTS: return TextData::field_size;
     default: return -1;
