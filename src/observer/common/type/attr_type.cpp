@@ -13,7 +13,7 @@ See the Mulan PSL v2 for more details. */
 #include "common/type/attr_type.h"
 
 const char *ATTR_TYPE_NAME[] = {
-    "undefined", "chars", "ints", "floats", "booleans", "dates", "vectors", "nulls", "texts"};
+    "undefined", "chars", "ints", "floats", "booleans", "dates",  "nulls", "texts"};
 
 // 将属性类型转换为字符串
 const char *attr_type_to_string(AttrType type)
